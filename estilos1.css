@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto+Flex:opsz,wght@8..144,500&family=Sriracha&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.imagen {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.barra {
+    background-color: rgb(35, 167, 167);
+    text-align: center;
+}
+
+.barra1 {
+    font-family: 'Smooch', cursive;
+    font-size: 40px;
+    display: inline-block;
+    padding: 5px 18px;
+    color: rgb(255, 255, 255);
+}
+
+.barra1:hover {
+    color: rgb(255, 0, 183);
+    border-bottom: 2px solid rgb(255, 0, 255);
+}
+
+.imagen1 {
+    width: 1360px;
+    height: 600px;
+    position: absolute;
+    z-index: 10;
+}
+
+.contenedor-img {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    /* margin-top: 100px;
+    margin-left: 400px; */
+    z-index: 50;
+}
+
+.contenedor-img h3 {
+    font-family: 'Playball', cursive;
+    letter-spacing: 5px;
+    padding: 30px 0px;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 170px;
+    font-weight: 900;
+    text-shadow: 0px 0px 19px rgb(0, 0, 0), 0px 0px 19px rgb(0, 0, 0), 0px 0px 19px rgb(0, 0, 0), 0px 0px 19px rgb(0, 0, 0);
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
+}
+
+.contenedor-img h2 {
+    color: rgb(255, 234, 0);
+    font-family: 'Sriracha', cursive;
+    letter-spacing: 5px;
+    margin-top: 80px;
+    padding: 30px 0px;
+    font-size: 40px;
+    margin-left: 230px;
+    text-shadow: 0px 0px 19px rgb(0, 0, 0), 0px 0px 19px rgb(0, 0, 0), 0px 0px 19px rgb(0, 0, 0), 0px 0px 19px rgb(0, 0, 0);
+}
+
+.imagen2 {
+    width: 240px;
+    margin-left: 50px;
+    margin-top: 700px;
+    border: 4px solid black;
+    box-shadow: 0px 0px 19px rgb(0, 0, 0);
+}
+
+.imagen3 {
+    width: 400px;
+    margin-left: 170px;
+    border: 4px solid black;
+    box-shadow: 0px 0px 19px rgb(0, 0, 0);
+}
+
+.imagen4 {
+    width: 200px;
+    margin-left: 200px;
+    border: 4px solid black;
+    box-shadow: 0px 0px 19px rgb(0, 0, 0);
+}
+
+i {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 19px 0px rgb(186, 6, 192);
+    box-shadow: inset 0 -1px 1px rgb(198, 22, 204);
+    top: -10px;
+    animation: nieve linear infinite;
+}
+
+@keyframes nieve {
+    0% {
+        top: -5px;
+    }
+    100% {
+        top: calc(100vh + 50px);
+    }
+}
